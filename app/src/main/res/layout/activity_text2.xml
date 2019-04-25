@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextTwoActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="start|top"
+                android:lineSpacingExtra="5sp"
+                android:text= "Quisque sit amet tellus mattis, commodo nunc nec, aliquam dui. Ut ac convallis nibh. Mauris molestie ac metus sed elementum. Integer et felis aliquet, suscipit felis a, consectetur erat. Integer viverra leo finibus nibh pellentesque placerat. Donec accumsan nibh vitae lacus gravida, at scelerisque mi ornare. Vestibulum ultrices luctus nulla non blandit. Aliquam bibendum tincidunt metus quis rutrum. In nec leo erat. In ullamcorper et lorem sed porta."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

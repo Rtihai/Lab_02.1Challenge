@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextOneActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="start|top"
+                android:lineSpacingExtra="5sp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ullamcorper varius consequat. Praesent vulputate ante ac nisl efficitur scelerisque. Nullam tempus egestas leo, commodo bibendum diam facilisis ut. Aenean eget finibus lacus, nec pretium enim. Donec mattis ante et libero aliquet fringilla in id purus. In eu sapien in augue viverra suscipit. Sed consectetur posuere odio, sit amet viverra est luctus ac. Donec interdum congue nunc vel mollis. Donec ultrices metus fringilla arcu dapibus feugiat. Proin feugiat dolor tellus, id dictum nisi bibendum ac. Donec luctus, nulla ac sagittis consectetur, tellus libero suscipit risus, eu dictum ligula justo vel leo.  Duis aliquet enim velit, a malesuada ligula fringilla sed. Nam gravida erat nec neque varius, sit amet tincidunt felis egestas. Cras a gravida orci. Sed consequat a ligula quis rutrum. In sodales convallis nibh eget accumsan. Suspendisse potenti. Integer sem risus, tristique pharetra risus eu, consectetur mollis risus.  Phasellus aliquam, massa eget tempor ultrices, nulla eros rutrum augue, porttitor porttitor mi leo et risus. Vivamus sollicitudin porttitor dapibus. Donec volutpat non diam ut eleifend. Pellentesque molestie erat lorem, quis fringilla nisl consectetur a. Vestibulum tincidunt efficitur pellentesque. Morbi quam nulla, bibendum vel ligula vitae, convallis hendrerit ante. Aenean sollicitudin lacus nec nibh hendrerit, vel venenatis turpis molestie. Pellentesque volutpat metus at arcu accumsan lacinia. Sed at gravida libero. Donec vel commodo sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Integer vitae sodales mi. Nunc libero leo, egestas nec tempor posuere, ultrices non purus. Phasellus sit amet eleifend odio. Donec et eros ante. Cras vitae tellus sit amet nibh tempor finibus eu fermentum augue. Maecenas vestibulum quam erat, consectetur elementum tortor euismod a. Proin a tincidunt turpis. Phasellus maximus interdum malesuada. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam luctus, est sodales molestie vulputate, sem ipsum fringilla odio, sit amet dignissim elit tellus sit amet est. Maecenas et odio nec orci aliquet aliquam. Praesent blandit rhoncus purus, non scelerisque justo mollis non. Aenean at erat interdum odio sagittis elementum eget at nunc.  Sed vel augue id dui vehicula euismod. Praesent nulla lectus, scelerisque at dui sed, pharetra porttitor lorem. In vel orci in ipsum mollis scelerisque. Maecenas imperdiet arcu vitae ex faucibus condimentum. Praesent mollis egestas risus, eu porta nulla semper sit amet. Donec ac turpis ac erat aliquam dignissim ut sit amet nunc. Cras eget malesuada dolor. Curabitur at diam neque."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

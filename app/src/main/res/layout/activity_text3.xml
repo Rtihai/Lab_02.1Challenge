@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextThreeActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/editText"
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="start|top"
+                android:lineSpacingExtra="5sp"
+                android:text="In nec blandit risus. Duis nec neque consectetur, scelerisque diam sit amet, finibus sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque porta massa in nibh ultricies laoreet. In hac habitasse platea dictumst. Vestibulum dapibus tellus ex, et porttitor sapien efficitur vel. Proin malesuada lectus ante. Curabitur at eros ipsum. Sed viverra sagittis viverra. Sed eget odio sapien. Nulla vehicula diam at nibh mollis scelerisque. Integer accumsan iaculis risus, vel maximus dui accumsan at. Curabitur aliquam diam in nibh sodales efficitur. Quisque consectetur tempus ex, at feugiat quam viverra eget. Donec quis faucibus risus. Pellentesque in bibendum mauris, at fermentum lorem. Etiam commodo accumsan lectus aliquam tempus.
+Curabitur sed elit tempus erat tincidunt euismod. Proin non volutpat nisi, vel efficitur arcu. Praesent eget euismod orci, a aliquam risus. Maecenas et molestie eros, ac pellentesque lorem. Donec non lacus enim. Donec dui nulla, dictum ac nisi sed, sodales vehicula enim. Mauris ac ultricies nibh. Nulla quis dictum ipsum, vitae eleifend erat. Fusce quis euismod arcu. Etiam luctus venenatis ante sit amet semper. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Vestibulum a ipsum pretium, fringilla metus a, porta arcu.
+Donec blandit purus vitae porta ornare. Quisque maximus ligula magna, nec porta justo facilisis in. Curabitur turpis dolor, eleifend eget sem et, consectetur semper justo. Etiam non turpis sed ex semper volutpat vestibulum id libero. Integer sit amet enim in mi pharetra ultricies. Morbi vitae varius massa. Quisque porttitor elementum laoreet. Donec rhoncus, ante sit amet lacinia semper, libero leo efficitur ligula, in vestibulum ipsum arcu in est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Praesent quis dolor non nisi porttitor fringilla. Donec in vulputate purus, quis sodales nisl. Duis finibus, ipsum sit amet mattis iaculis, leo ligula iaculis lectus, vel tristique dolor neque quis leo. Ut luctus, lectus fringilla pretium vulputate, leo nunc aliquam magna, quis ultrices sem neque ac felis."
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
